@@ -1,0 +1,3 @@
+CNN Trainiert mit die drei Sachen aus der Simulationen (kraft, X-verschiebung, Y-verschiebung).
+
+-Achtung für den ort von datei
