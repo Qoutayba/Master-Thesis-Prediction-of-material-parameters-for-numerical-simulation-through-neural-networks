@@ -1,0 +1,21 @@
+Mit diesem Code werden die Daten aus den Simulationsergebnissen gesampelt:
+
+- mit Hilfe der Lasso dyna Bibliothek
+
+- Die wichtigsten Simulationsergebnisse für uns sind die Kraft, die X-Verschiebung und die Y-Verschiebung.
+
+- Kraft, X-Verschiebung und Y-Verschiebung werden hier für 272 Knoten gespeichert.
+
+- die Ergebnisse der Simulationen werden in Binout00 und Binout01 gespeichert.
+
+- Lasso Dyna kann die Binout-Datei lesen und die Ergebnisse aus ihr sammeln.
+
+- Zum Speichern der Daten muss hier das gleiche HDF5 aus dem ersten Code verwendet werden. das heißt, dass wir die Simualtion ergebnisse (Kraft, X-ver, Y-ver) mit den Labels speichern
+
+- Am Ende erhalten wir eine HDF5-Datei, in der (force, X-ver, Y-ver) für verschiedene Fälle aus der Simulation und für jeden Fall die Label.
+
+- Kraft, X-Verschiebung und Y-Verschiebung werden später als die Eingaben für die neuronalen Netze verwendet.
+
+- Kraft für alle 272 Knoten ist gleich für einem Fall Aber die X-und Y-verschiebung ist unbedingt für jede Knote anders
+
+- Die Kraft für alle 272 Knoten ist in einem Fall gleich, aber die X- und Y-Verschiebung ist unbedingt für jeden Knoten unterschiedlich.
