@@ -1,0 +1,11 @@
+Dieser Code wird Grundsätzlich verwendet, um die Keyfile für die Simulationen und zu erstellen:
+
+- Hier werden verschiedene Fälle (Cases) von Simulationen erstellt.
+
+- In dieser Arbeit wurden 10000 Fälle erstellt.
+
+- Schließlich werden die Fälle in einer HDF5-Datei gespeichert, die später die Labels in den Trainingsdaten bilden werden.
+
+- So erhalten wir von diesem Code am Ende ( Kayfile mit verschiedenen Fällen (Cases) für die Simulationen, und HDF5-Datei für die Speicherung von Labels)
+
+- Die mit diesem Code erstellte HDF5-Datei wird später zum Speichern der Ergebnisse der Simulationen verwendet. (Siehe den nächsten Code)
