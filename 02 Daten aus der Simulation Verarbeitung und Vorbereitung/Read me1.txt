@@ -1,0 +1,9 @@
+Hier gibt es zwei Codes:
+
+- Der erste (TrainingData processing) befasst sich mit der Erstellung von Trainingsdaten in ihrer endgültigen Form.
+
+- Der zweite (Als Bilder für CNN definieren und Skalierung) befasst sich mit der Skalierung der Daten (falls erforderlich) und zeigt, wie die Ergebnisse aussehen, wenn wir sie als Bilder betrachten, um sie an CNN zu übergeben.
+
+- In unserer Arbeit hat die Skalierung das Training der Netzwerke erheblich verbessert.
+
+- Aber wir haben die Skalierung nicht verwendet, weil die realen Daten später außerhalb oder größer als die Trainingsdaten waren.

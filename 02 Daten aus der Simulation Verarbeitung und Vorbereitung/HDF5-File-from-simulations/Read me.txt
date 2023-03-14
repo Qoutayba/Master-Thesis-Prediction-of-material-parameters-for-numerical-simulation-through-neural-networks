@@ -1,0 +1,2 @@
+HDF5 aus Simulation:
+- die Erste zum beispiel hat 1500 fall. Für jeder Fall kraft und X-Y-verschiebung von 272 Knoten.

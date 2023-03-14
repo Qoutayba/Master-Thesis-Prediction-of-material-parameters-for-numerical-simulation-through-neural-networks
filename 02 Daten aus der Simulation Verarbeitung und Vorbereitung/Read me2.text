@@ -1,0 +1,18 @@
+Bei der Berechnung der Simulationen von Zugversuchen mit LS_Run sind einige Probleme aufgetreten:
+
+- Zum Beispiel wurde die Berechnung mit LS-Run oft unterbrochen, zum anderen war die Größe der Simulationsergebnisse (die binout-Datei) mit 500 GB sehr groß.
+
+- Um die oben genannten Probleme zu lösen, wurde die Berechnung mit LS-Run in Schritten durchgeführt.
+
+- Also nicht einmal 10000 Simulationen mit Ls-Run berechnet, sondern in Schritten wie folgt: 1500, 2500, 2100 und 4050 Simulationen berechnet.
+
+- die Daten für jeden Schritt in einer HDF5-Datei gesammelt
+
+- Am Ende wurden vier HDF5-Dateien erstellt
+
+- in Laufwerken von IFB in der gemeinsamen Ordner sind alle Ergebnisse der Simulationen, also die binout-Dateien
+
+- Link: \\ifb-cifs\IFB-Netz\Projekte\0394-DFG-Impact_Czichos\02-Projektdurchführung\00-Projekt-Arbeitsordner\04_Simulation\01_Studenten\03_Qoutayba_Abboud\04_ Simulation mit LSdyna
+
+
+

@@ -1,0 +1,19 @@
+In diesem Datei ist die Matrix von Inputssdaten und die Labels.
+
+die Inputsdaten hat der Form :(10150, 272,101,3)
+
+10150 verschiedene Fälle
+272 Knote
+101 Zeitschritt
+3  die drei Ergibnesse (kraft, X-ver, Y-ver)
+
+Code zum Lesen:
+
+h5file = h5py.File('Finally-Training-data/Finally Training data 10150 not scaled.h5', 'r' )
+
+xyfornotscaled = np.array(h5file['Training data not scaled/xyfornotscaled'])
+label = np.array(h5file['Training data not scaled/Labels'])
+print(xyfornotscaled.shape)
+print(label.shape)
+h5file.close()
+
