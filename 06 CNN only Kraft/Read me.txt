@@ -1,0 +1,3 @@
+CNN trainiert nur mit der Kraft daten 
+
+- die Zeitschritt auch wurde verkurzt
