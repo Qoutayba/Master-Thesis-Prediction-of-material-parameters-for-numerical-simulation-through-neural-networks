@@ -1,0 +1,20 @@
+
+LICENSE INFORMATION
+
+PROGRAM          EXPIRATION CPUS  USED   FREE    MAX | QUEUE
+---------------- ----------      ----- ------ ------ | -----
+MPPDYNA          02/18/2022         48   1944   2000 |     0
+MPPDYNA_971      02/18/2022          0   1944   2000 |     0
+MPPDYNA_970      02/18/2022          0   1944   2000 |     0
+MPPDYNA_960      02/18/2022          0   1944   2000 |     0
+LS-DYNA          02/18/2022          8   1944   2000 |     0
+LS-DYNA_971      02/18/2022          0   1944   2000 |     0
+LS-DYNA_970      02/18/2022          0   1944   2000 |     0
+LS-DYNA_960      02/18/2022          0   1944   2000 |     0
+                   LICENSE GROUP    56   1944   2000 |     0
+
+PROGRAM          EXPIRATION CPUS  USED   FREE    MAX | QUEUE
+---------------- ----------      ----- ------ ------ | -----
+LS-DYNAMC        02/18/2022          0   2000   2000 |     0
+                   LICENSE GROUP     0   2000   2000 |     0
+
