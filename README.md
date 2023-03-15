@@ -1,4 +1,5 @@
 # Master Thesis
+![](http://i.imgur.com/NdTFZRL.png) 
 # Prediction of material parameters for numerical simulation through neural networks
 In this master thesis, a method is developed to use machine learning to predict the
 parameters for the material models in numerical simulation. Through deep neural
